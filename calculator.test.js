@@ -70,6 +70,10 @@ describe('multiply', () => {
     expect(multiply(9,10)).toBe(90);
   })
 
+  test("can multiple by 0", () => {
+    expect(multiply(9,0)).toBe(0);
+  })
+
 });
 
 describe('divide', () => {

@@ -91,6 +91,10 @@ describe('divide', () => {
 
 describe('modulus', () => {
 
+  test("can find modulus of two small numbers", () => {
+    expect(modulus(10,4)).toBe(2);
+  })
+
 });
 
 describe('even', () => {

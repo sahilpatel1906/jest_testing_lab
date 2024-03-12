@@ -95,6 +95,10 @@ describe('modulus', () => {
     expect(modulus(10,4)).toBe(2);
   })
 
+  test("can find modulus of two large numbers", () => {
+    expect(modulus(1000000, 400000)).toBe(200000);
+  })
+
 });
 
 describe('even', () => {

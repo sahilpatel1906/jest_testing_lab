@@ -78,6 +78,10 @@ describe('multiply', () => {
 
 describe('divide', () => {
 
+  test("can divide two integers", () => {
+    expect(divide(9,3)).toBe(3);
+  })
+
 });
 
 describe('modulus', () => {

@@ -50,9 +50,15 @@ describe('subtract', () => {
     expect(actual).toBe(expected);
   })
 
-  test("can subtract one negative number", () => {
+  test("can subtract one negative number from one positive number", () => {
     expected = 10;
     actual = subtract(8, -2);
+    expect(actual).toBe(expected);
+  })
+
+  test("can subtract two negative numbers", () => {
+    expected = 0;
+    actual = subtract(-5,-5);
     expect(actual).toBe(expected);
   })
 

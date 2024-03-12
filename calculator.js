@@ -18,7 +18,12 @@ const modulus = (a,b) => {
     return a % b;
 };
 
-const even = null;
+function even(a){
+    if(a % 2 == 0){
+        return true;
+    }
+    return false;
+}
 
 const odd = null;
 

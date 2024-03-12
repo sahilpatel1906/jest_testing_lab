@@ -50,6 +50,12 @@ describe('subtract', () => {
     expect(actual).toBe(expected);
   })
 
+  test("can subtract one negative number", () => {
+    expected = 10;
+    actual = subtract(8, -2);
+    expect(actual).toBe(expected);
+  })
+
 });
 
 describe('multiply', () => {

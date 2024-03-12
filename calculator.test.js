@@ -103,6 +103,10 @@ describe('modulus', () => {
 
 describe('even', () => {
 
+  test("can return true for small even number", () => {
+    expect(even(10)).toBe(true);
+  })
+
 });
 
 describe('odd', () => {

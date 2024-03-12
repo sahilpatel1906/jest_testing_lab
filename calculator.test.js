@@ -82,6 +82,10 @@ describe('divide', () => {
     expect(divide(9,3)).toBe(3);
   })
 
+  test("can divide by a decimal value", () => {
+    expect(divide(10,2.5)).toBe(4);
+  })
+
 });
 
 describe('modulus', () => {

@@ -38,6 +38,13 @@ describe('sum', () => {
 
 describe('subtract', () => {
 
+  test("can subtract two small numbers", () => {
+    expected = 10;
+    actual = subtract(12,2);
+    expect(actual).toBe(expected);
+  })
+
+  
 });
 
 describe('multiply', () => {

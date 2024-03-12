@@ -66,6 +66,10 @@ describe('subtract', () => {
 
 describe('multiply', () => {
 
+  test("can multiply two small numbers", () => {
+    expect(multiply(9,10)).toBe(90);
+  })
+
 });
 
 describe('divide', () => {

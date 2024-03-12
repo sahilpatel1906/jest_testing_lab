@@ -107,6 +107,10 @@ describe('even', () => {
     expect(even(10)).toBe(true);
   })
 
+  test("can return false for small even number", () => {
+    expect(even(17)).toBe(false);
+  })
+
 });
 
 describe('odd', () => {

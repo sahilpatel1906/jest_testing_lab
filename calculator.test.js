@@ -119,4 +119,8 @@ describe('odd', () => {
     expect(odd(11)).toBe(true);
   })
 
+  test("can return true for small odd number", () => {
+    expect(odd(2)).toBe(false);
+  })
+
 });

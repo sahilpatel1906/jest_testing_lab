@@ -44,7 +44,12 @@ describe('subtract', () => {
     expect(actual).toBe(expected);
   })
 
-  
+  test("can subtract two large numbers", () => {
+    expected = 1000000;
+    actual = subtract(3000000, 2000000);
+    expect(actual).toBe(expected);
+  })
+
 });
 
 describe('multiply', () => {
